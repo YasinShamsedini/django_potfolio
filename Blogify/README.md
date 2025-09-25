@@ -38,6 +38,18 @@ However, parts of the documentation (such as this README) were written with AI a
 (See the root portfolio README for the overall AI usage policy across projects.)
 
 
+## 📸 Screenshots
+
+### Home Page
+![Home Page](./docs/homepage blogify.JPG)
+
+### Blog List
+![Blog List](./docs/blogpage blogify.JPG)
+
+### Admin Panel
+![Admin Panel](./docs/adminpanel blogify.JPG)
+
+homepage blogify.JPG
 
 
 ##  License
