@@ -41,13 +41,13 @@ However, parts of the documentation (such as this README) were written with AI a
 ## 📸 Screenshots
 
 ### Home Page
-![Home Page](./docs/homepage blogify.JPG)
+![Home Page](./docs/homepage_blogify.JPG)
 
 ### Blog List
-![Blog List](./docs/blogpage blogify.JPG)
+![Blog List](./docs/blogpage_blogify.JPG)
 
 ### Admin Panel
-![Admin Panel](./docs/adminpanel blogify.JPG)
+![Admin Panel](./docs/adminpanel_blogify.JPG)
 
 homepage blogify.JPG
 
