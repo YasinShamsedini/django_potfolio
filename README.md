@@ -9,7 +9,7 @@ Each project is self-contained and demonstrates different aspects of web develop
 
 ## 📂 Projects
 
-- [Blogify](#) – A simple blog application  
+- [Blogify](./Blogify) – A simple blog application  
 *(More projects will be added here...)*
 
 
