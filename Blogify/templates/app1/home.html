@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+
+{% block title %} APP 1 {% endblock %}
+
+{% block content %}
+    <h1>Welcome to Blogify!</h1>
+    <p>Exlore Blogs in different topics in Blogify</p>
+    <p><a id="ctablog" href="{% url 'blogsurl' %}">Blog Page</a></p>
+    <style>
+        main {
+            background-image: linear-gradient(black, rgb(137, 137, 137));
+        }
+        h1 {
+            padding-top: 30px;
+            font-size: 50px;
+            text-align: center;
+            color: orange;
+        }
+        p {
+            padding: 10px;
+            margin: 50px 0 ;
+            text-align: center;
+            font-size: 40px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        #ctablog {
+            text-decoration: none;
+            padding: 5px 10px;
+            margin-top: 5000px;
+            color: rgb(212, 212, 212);
+            border: 2px solid rgb(211, 211, 211);
+            border-radius: 4px;
+            letter-spacing: 3px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        #ctablog:hover {
+            background-color: rgb(88, 88, 88);
+        }
+    </style>
+{% endblock %}
