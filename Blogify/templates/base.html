@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %} {% endblock %}</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: black;
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background-color: rgb(23, 23, 23);
+            text-align: center;
+            padding: 10px;
+        }
+        main {
+            padding: 10px;
+            margin:20px auto;
+            width: 70%;
+            flex: 1;
+            border: 1px solid rgb(118, 118, 118);
+            border-radius: 5px;
+            background-color: rgb(0, 78, 78);
+        }
+        footer {
+            background-color: rgb(23, 23, 23);
+            text-align: center;
+            padding: 10px;
+        }
+        footer a {
+            text-decoration: none;
+            color: rgb(184, 184, 184);
+        }
+        header a {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            text-decoration: none;
+            color: rgb(203, 203, 203);
+        }
+    </style>
+</head>
+<body>
+    <header><a href="{% url 'homeurl' %}">Blogify</a></header>
+    <main>{% block content %} {% endblock %}</main>
+    <footer><a href="#">Contact Us</a></footer>
+    
+</body>
+</html>
