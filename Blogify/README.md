@@ -14,7 +14,7 @@ Users can browse blog posts (title, content, timestamp) via clean templates and 
 
 
 
-## 🛠 Tech Stack
+## Tech Stack
 - **Backend:** Python, Django  
 - **Database:** SQLite (by default)  
 - **Frontend:** HTML & CSS 
