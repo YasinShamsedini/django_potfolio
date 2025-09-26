@@ -1,0 +1,65 @@
+# Python and Django
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.sqlite3  # دیتابیس محلی SQLite
+*.db
+
+# Django static and media
+staticfiles/
+media/
+
+# Virtual environment
+venv/
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+*.log
+logs/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Node.js and npm (برای پروژه‌های با React)
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn.lock
+package-lock.json
+
+# Coverage and testing
+.coverage
+coverage/
+htmlcov/
+
+# Other temporary files
+*.bak
+*.swp
+*~
+
+# Render-specific
+*.pid
+*.seed
+*.pid.lock
