@@ -1,0 +1,167 @@
+/* General body styling */
+body {
+    background: linear-gradient(145deg, #fff3e0, #e0f7fa); /* Warm orange to soft blue gradient */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    color: #2d3748;
+    overflow-x: hidden;
+}
+
+/* Navbar customization */
+.navbar {
+    background: linear-gradient(to right, #f97316, #3b82f6); /* Orange to blue gradient */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    padding: 0.8rem 1rem;
+}
+
+.navbar-brand, .nav-link {
+    color: #fff !important;
+    font-weight: 500;
+    transition: color 0.3s, transform 0.2s;
+}
+
+.nav-link:hover {
+    color: #fef3c7 !important; /* Light amber on hover */
+    transform: scale(1.05);
+}
+
+/* Card styling for posts */
+.card {
+    margin-bottom: 2.5rem;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+    background-color: #ffffff;
+    transition: transform 0.3s, box-shadow 0.3s;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.25);
+}
+
+.card-img-top {
+    max-height: 240px;
+    object-fit: cover;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    transition: transform 0.4s;
+}
+
+.card:hover .card-img-top {
+    transform: scale(1.05); /* Zoom effect on hover */
+}
+
+.card-title a {
+    color: #f97316; /* Vibrant orange */
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+.card-title a:hover {
+    color: #b45309; /* Darker orange */
+}
+
+/* Comment styling */
+.comment {
+    border-left: 5px solid #3b82f6; /* Bright blue */
+    padding: 1.2rem 1.8rem;
+    margin-bottom: 1.8rem;
+    background-color: #f0f9ff; /* Light blue */
+    border-radius: 10px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.comment:hover {
+    background-color: #e0f2fe;
+    transform: translateX(5px);
+}
+
+/* Form styling */
+form .form-control {
+    border-radius: 10px;
+    border: 1px solid #d1d5db;
+    margin-bottom: 1.5rem;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+form .form-control:focus {
+    border-color: #f97316;
+    box-shadow: 0 0 8px rgba(249, 115, 22, 0.4);
+}
+
+.btn-primary {
+    background-color: #f97316;
+    border-color: #f97316;
+    border-radius: 10px;
+    padding: 0.7rem 1.5rem;
+    font-weight: 500;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn-primary:hover {
+    background-color: #c2410c;
+    border-color: #c2410c;
+    transform: scale(1.05);
+}
+
+/* Pagination styling */
+.pagination {
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.page-link {
+    color: #f97316;
+    border-radius: 8px;
+    margin: 0 5px;
+    transition: background-color 0.3s;
+}
+
+.page-item.active .page-link {
+    background-color: #f97316;
+    border-color: #f97316;
+}
+
+.page-link:hover {
+    background-color: #fef3c7;
+    color: #b45309;
+}
+
+/* React component container */
+#react-post-list {
+    margin-top: 2rem;
+}
+
+/* Animations */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.card, .comment, .pagination {
+    animation: fadeInUp 0.5s ease-out;
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+    .card-img-top {
+        max-height: 200px;
+    }
+    h1 {
+        font-size: 1.6rem;
+    }
+    .navbar-brand, .nav-link {
+        font-size: 0.95rem;
+    }
+    .btn-primary {
+        padding: 0.5rem 1rem;
+    }
+}
