@@ -10,7 +10,7 @@ Each project is self-contained and demonstrates different aspects of web develop
 ## 📂 Projects
 
 - [Blogify](./Blogify) – A simple blog application  
-- [Blog Project](./my_blog_project) – A modern, full-stack blog platform built with Django & React  
+- [My Blog](./my_blog_project) – A modern, full-stack blog platform built with Django & React  
 *(More projects will be added here...)*
 
 
