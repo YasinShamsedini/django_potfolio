@@ -94,7 +94,7 @@ The source code leverages AI-driven workflows for optimization, while documentat
 ## Links
 
 * **GitHub**: [YasinShamsedini/django_portfolio](https://github.com/YasinShamsedini/django_portfolio)
-* **Live Demo(Not available yet.)**: *(###)*
+* **Live Demo(Not available yet.)
 
 
 
