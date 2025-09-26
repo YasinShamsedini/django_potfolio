@@ -3,7 +3,7 @@
 A modern, full-stack blog platform built with **Django** and **React**, showcasing advanced web development techniques.  
 This project demonstrates my ability to manage complex projects with extensive AI assistance, integrating backend, frontend, and deployment workflows seamlessly.
 
-<br><br>
+<br>
 
 ##  Features
 - **Dynamic Rendering**: Posts are fetched and displayed dynamically via React, powered by a Django REST Framework API.  
