@@ -78,7 +78,20 @@ python manage.py runserver
 
 ##  Screenshots
 
-*Add screenshots of homepage, post detail, and admin panel here.*
+### Home Page
+![Home Page](./docs/mybloghome.JPG)
+
+### Sample Blog
+![Blog List](./docs/myblogsamplepost.JPG)
+
+### Admin Panel
+![Admin Panel](./docs/myblogadmin.JPG)
+
+### Sing Up Page
+![Admin Panel](./docs/myblogsignup.JPG)
+
+### Post Creation Panel
+![Admin Panel](./docs/myblognewpost.JPG)
 
 <br>
 
